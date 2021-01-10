@@ -1,0 +1,133 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #f8f9fa !important;
+}
+
+.center {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form {
+  border: 1px solid #c9c9c9;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 15px -7px #000000;
+          box-shadow: 2px 2px 15px -7px #000000;
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+}
+
+.form .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
+  margin-top: 15px;
+}
+
+.form .input {
+  margin-top: 3px;
+}
+
+.form .lead {
+  margin-top: 10px;
+}
+
+.form .checkas {
+  margin-top: 10px;
+}
+
+.wrap2, .wrap1 {
+  margin-bottom: 50px;
+}
+
+.alertas {
+  width: 50%;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.change {
+  width: 50%;
+}
+
+@media only screen and (max-width: 700px) {
+  .form {
+    width: 100%;
+    border: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .alertas {
+    width: 90%;
+    margin: 5px auto;
+  }
+  .change {
+    width: 100%;
+  }
+}
+
+.backbtn {
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.card-wrap {
+  padding-top: 25px;
+}
+
+.logo {
+  font-weight: bold !important;
+  color: #6c757d !important;
+}
+
+.name {
+  font-weight: bold;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.backgroundas {
+  background: linear-gradient(135deg, #0061f2, rgba(105, 0, 199, 0.8));
+  height: 100vh;
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 46%, 58% 37%, 26% 0);
+          clip-path: polygon(50% 0%, 100% 0, 100% 46%, 58% 37%, 26% 0);
+}
+
+.lbl {
+  padding: 5px;
+}
+
+.smalltxt {
+  text-align: left !important;
+  display: block;
+  margin-left: 10px;
+  font-style: italic;
+  padding: 3px;
+}
+/*# sourceMappingURL=style.css.map */

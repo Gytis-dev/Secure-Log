@@ -1,0 +1,122 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background:#f8f9fa !important;
+   
+}
+
+.center {
+    height:100vh;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form {
+    // position: absolute;
+    border:1px solid rgb(201, 201, 201);
+    border-radius:5px;
+    box-shadow: 2px 2px 15px -7px #000000;
+    // top:50%;
+    // left:50%;
+    // width:30%;
+    // transform: translate(-50%, -45%);
+    padding:20px;
+    // text-align: center;
+    // width:30%;
+    // margin:auto;
+    text-align: center;
+    width:30%;
+  
+   
+        .buttons {
+            display:flex;
+            flex-direction: column;
+            gap:5px;
+            margin-top:15px;
+        }
+            .input {
+                margin-top:3px;
+            }
+                .lead {margin-top:10px;}
+
+                    .checkas {
+                        margin-top:10px;
+                    }
+}
+.wrap2, .wrap1{
+    margin-bottom: 50px;
+}
+
+.alertas {
+    width:50%;
+    margin:auto;
+    margin-top:5px;
+
+}
+.change {
+    width: 50%;
+ }
+
+@media only screen and (max-width: 700px) {
+    .form {
+        width:100%;
+        border:none;
+        box-shadow: none;
+    }
+    .alertas {
+        width:90%;
+        margin: 5px auto;
+    }
+    .change {
+        width:100%;
+    }
+
+}
+.backbtn {
+    margin-left:20px;
+    margin-top:40px;
+}
+.card-wrap {padding-top:25px}
+
+.logo {
+    font-weight: bold !important;
+    color:#6c757d !important;
+}
+.name {
+    font-weight: bold;
+    display:inline-block;
+    text-transform: capitalize;
+}
+
+.backgroundas {
+    background:linear-gradient(135deg,#0061f2,rgba(105,0,199,.8));
+    height:100vh;
+    clip-path: polygon(50% 0%, 100% 0, 100% 46%, 58% 37%, 26% 0);
+}
+
+.lbl {
+    padding:5px;
+}
+.smalltxt {
+    text-align: left !important;
+    display:block;
+    margin-left:10px;
+    font-style: italic;
+    padding:3px;
+}
+
+
+
+
+
+
+
+
